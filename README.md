@@ -18,7 +18,7 @@ git clone https://github.com/jaomanoel/interpreter-rinha-de-compiler-2023.git
 cd interpreter-rinha-de-compiler-2023
 ```
 
-Install the Rinha Interpreter using Cargo:
+Install the Rinha using Cargo:
 
 ```bash 
 cargo install rinha
@@ -26,7 +26,7 @@ cargo install rinha
 
 ## Usage
 
-Navigate to the tree_walker_interpreter directory:
+Navigate to the tree-walker-interpreter directory:
 
 ```bash
 cd tree_walker_interpreter
