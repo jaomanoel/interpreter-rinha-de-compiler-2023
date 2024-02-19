@@ -49,10 +49,6 @@ Run the interpreter:
 cargo run
 ```
 
-## Example
-
-To test the interpreter, you can use the provided examples in the examples directory. The Rinha source files will be converted to JSON, and the interpreter will run the converted files.
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
