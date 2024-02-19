@@ -6,4 +6,5 @@ pub mod location;
 pub mod print;
 pub mod second;
 pub mod str;
+pub mod syntax_error;
 pub mod tuple;
