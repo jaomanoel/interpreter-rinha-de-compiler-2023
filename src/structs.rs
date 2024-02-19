@@ -1,6 +1,9 @@
 pub mod binary;
 pub mod bool;
+pub mod first;
 pub mod int;
 pub mod location;
 pub mod print;
+pub mod second;
 pub mod str;
+pub mod tuple;
