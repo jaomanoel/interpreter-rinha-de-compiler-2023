@@ -6,4 +6,5 @@ pub enum ReturnTypes {
     Str(String),
     Int(i32),
     Bool(bool),
+    Tuple((Box<ReturnTypes>, Box<ReturnTypes>)),
 }
