@@ -1,8 +1,8 @@
 use serde::Deserialize;
 
 use crate::structs::{
-    binary::Binary, bool::Bool, first::First, int::Int, print::Print, second::Second, str::Str,
-    tuple::Tuple,
+    binary::Binary, bool::Bool, first::First, if_struct::If, int::Int, print::Print,
+    second::Second, str::Str, tuple::Tuple,
 };
 
 #[derive(Deserialize, Debug)]
@@ -16,4 +16,5 @@ pub enum Term {
     Tuple(Tuple),
     First(First),
     Second(Second),
+    If(If),
 }
