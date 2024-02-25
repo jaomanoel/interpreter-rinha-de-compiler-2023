@@ -1,0 +1,9 @@
+let a = 1;
+let b = fn (n) => {
+   let c = 2;
+   let d = fn (n) => {
+      a + c + n
+   };
+    d(n)
+};
+print(b(1))
