@@ -2,11 +2,12 @@ use crate::{
     enums::return_types::ReturnTypes,
     eval,
     structs::{syntax_error::new_syntax_error, tuple::Tuple},
+    Scope,
 };
 
-pub fn tuple_case(tuple: Tuple) -> ReturnTypes {
-    let first = eval(*tuple.first);
-    let second = eval(*tuple.second);
+pub fn tuple_case(tuple: Tuple, scope: &Scope) -> ReturnTypes {
+    let first = eval(*tuple.first, scope);
+    let second = eval(*tuple.second, scope);
 
     match (&first, &second) {
         (ReturnTypes::Bool(_), ReturnTypes::Bool(_)) => {
